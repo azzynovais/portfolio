@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Float Sky</title>
+  <title>Azzy Novais</title>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
@@ -126,8 +126,8 @@
       <h3 style="margin-bottom: 10px;">Stats</h3>
       <p><strong>Local:</strong> Brasil</p>
       <p><strong>Foco:</strong> Front-End & UI</p>
-      <p><strong>Vibe:</strong> Techno, Minimal</p>
-      <a href="https://github.com/floatingskies" target="_blank" class="btn" style="margin-top:10px;">GitHub</a>
+      <p><strong>Game Type:</strong>Casual e Sandbox</p>
+      <a href="https://github.com/azzynovais" target="_blank" class="btn" style="margin-top:10px;">GitHub</a>
     </div>
   </div>
 </section>
@@ -177,7 +177,7 @@
   async function fetchProjects() {
     const container = document.getElementById('github-projects');
     try {
-      const res = await fetch('https://api.github.com/users/floatingskies/repos?sort=updated&per_page=6');
+      const res = await fetch('https://api.github.com/users/azzynovais/repos?sort=updated&per_page=6');
       const repos = await res.json();
       
       container.innerHTML = repos.map(repo => `
